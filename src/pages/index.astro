@@ -2,6 +2,7 @@
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import Form from "../components/Form.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 ---
 
@@ -27,8 +28,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
       <h2 class="text-xl font-bold">Who i'm you asked?</h2>
       <p>
         I'm just a developer enthusiast who is intrigued by this rabbit hole
-        called "code" and actually does code with not so much fun on his spare
-        time.
+        called "code" and that actually does code on his spare time.
       </p>
       <br />
       <h2 class="text-xl font-bold">What you will find on this website:</h2>
@@ -41,6 +41,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
         If you are only interested about how this blog was made (actually
         relatable) then i leave you the post like here
       </p>
+      <Form />
     </main>
     <Footer />
   </body>
